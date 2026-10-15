@@ -1,4 +1,3 @@
-DROP DATABASE IF EXISTS Colegio;
 CREATE DATABASE Colegio;
 USE Colegio;
 /*Sirve para crear una tabla*/
