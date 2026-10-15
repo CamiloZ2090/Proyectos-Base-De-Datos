@@ -1,4 +1,3 @@
-DROP DATABASE IF EXISTS Barberia;
 CREATE DATABASE Barberia;
 
 USE Barberia;
