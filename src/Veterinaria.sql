@@ -11,11 +11,6 @@ CREATE TABLE Propietarios (
     correo VARCHAR(50)
 );
 
-ALTER TABLE Propietarios
-MODIFY correo VARCHAR(100);
-
-DESCRIBE Propietarios;
-
 select * from Propietarios;
 
 CREATE TABLE Mascotas (
@@ -52,6 +47,11 @@ CREATE TABLE Citas (
 );
 
 select * from Citas;
+
+ALTER TABLE Propietarios
+MODIFY correo VARCHAR(100);
+
+DESCRIBE Propietarios;
 
 -- INSERCIÓN DE DATOS
 
