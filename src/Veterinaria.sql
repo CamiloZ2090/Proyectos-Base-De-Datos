@@ -1,4 +1,3 @@
-DROP DATABASE IF EXISTS Veterinaria;
 CREATE DATABASE Veterinaria;
 USE Veterinaria;
 
